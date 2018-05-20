@@ -1,0 +1,22 @@
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+#line-chart
+{max-width: 750px;}
+
+
+#area-chart,
+#line-chart,
+#bar-chart,
+#stacked,
+#pie-chart{
+  height: 210px;
+}
+
+.hstat
+{padding-left:40px;
+font-family: 'Ubuntu', sans-serif;
+}
+
+.graf
+{margin-left: 30px;}

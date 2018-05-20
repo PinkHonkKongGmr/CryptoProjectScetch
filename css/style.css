@@ -1,0 +1,242 @@
+
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+
+.top
+{height:95px;
+padding-top:15px;
+border-bottom: solid #d1d3d4 8px;
+background: #f1f1f2;
+
+}
+
+.langhover:hover
+{color: #877ba4;}
+
+
+.graf span
+{
+  font-family: 'Dosis', sans-serif;
+  margin-left: 10px;
+  color: #877ba4;
+  font-size: 30px;
+}
+
+
+
+
+#logo
+{margin-left:95px;
+ height:65px;
+
+
+}
+
+.left
+{
+  color:black;
+width:63%;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+float:right;
+background: #f1f1f2;
+margin-top: 5px;
+margin-right: 10px;
+
+
+}
+
+.right
+{
+  color:white;
+
+  float:right;
+  width:21%;
+  padding-left: 0;
+
+  background-color: #d1d3d4;
+
+
+
+}
+
+.menumain
+{
+margin-top: 5px;
+width:15%;
+float: left;
+margin-left: 0px;
+
+background-color:#d1d3d4;
+}
+
+.menumain li{
+list-style: none;
+background-color:#6d6f71;
+height: 80px;
+width:80px;
+margin-left:35px;
+}
+
+.menumain a{cursor: pointer;
+margin-left: 22px;
+text-decoration: none;
+
+}
+
+.menumain li:hover
+{
+  background : -moz-linear-gradient(43.92% 42.11% -52.41deg,rgba(145, 119, 182, 1) 0%,rgba(39, 170, 225, 1) 100%);
+   background : -webkit-linear-gradient(-52.41deg, rgba(145, 119, 182, 1) 0%, rgba(39, 170, 225, 1) 100%);
+   background : -webkit-gradient(linear,43.92% 42.11% ,176.37% 214.19% ,color-stop(0,rgba(145, 119, 182, 1) ),color-stop(1,rgba(39, 170, 225, 1) ));
+   background : -o-linear-gradient(-52.41deg, rgba(145, 119, 182, 1) 0%, rgba(39, 170, 225, 1) 100%);
+   background : -ms-linear-gradient(-52.41deg, rgba(145, 119, 182, 1) 0%, rgba(39, 170, 225, 1) 100%);
+   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#9177B6', endColorstr='#27AAE1' ,GradientType=0)";
+   /* background : linear-gradient(142.41deg, rgba(145, 119, 182, 1) 0%, rgba(39, 170, 225, 1) 100%); */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#9177B6',endColorstr='#27AAE1' , GradientType=1);
+}
+
+
+
+.menuspan
+{color:#fbfbfb;
+text-align: center;
+font-size: 13px;}
+.menuicons
+{
+height:45px;
+
+margin-top: 10px;
+padding-bottom:10px;
+
+}
+
+.footer
+{height: 80px;
+
+color:white;
+background: #6d6f71;
+padding-top: 10px;
+}
+
+
+.language-panel
+{
+  list-style: none;
+  color:red;
+  text-decoration: none;
+padding-top: 17px;
+}
+
+.language-panel a
+{
+
+  color:#a8a9ac;
+  text-decoration: none;
+
+
+}
+
+.language_panel>li
+{color:#eeeeef;
+text-decoration: none;}
+
+.box {
+  /*float:right;*/
+  background : -moz-linear-gradient(43.92% 42.11% -52.41deg,rgba(145, 119, 182, 1) 0%,rgba(39, 170, 225, 1) 100%);
+  background : -webkit-linear-gradient(-52.41deg, rgba(145, 119, 182, 1) 0%, rgba(39, 170, 225, 1) 100%);
+  background : -webkit-gradient(linear,43.92% 42.11% ,176.37% 214.19% ,color-stop(0,rgba(145, 119, 182, 1) ),color-stop(1,rgba(39, 170, 225, 1) ));
+  background : -o-linear-gradient(-52.41deg, rgba(145, 119, 182, 1) 0%, rgba(39, 170, 225, 1) 100%);
+  background : -ms-linear-gradient(-52.41deg, rgba(145, 119, 182, 1) 0%, rgba(39, 170, 225, 1) 100%);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#9177B6', endColorstr='#27AAE1' ,GradientType=0)";
+  /* background : linear-gradient(142.41deg, rgba(145, 119, 182, 1) 0%, rgba(39, 170, 225, 1) 100%); */
+	margin: 5px auto 20px 30px;
+  /*margin-top: 4.7%;*/
+	border-radius: 10px;
+  min-width:150px;
+	width: 61%;
+  line-height: 1.1;
+  margin-bottom: 20px;
+
+}
+
+.box p
+
+{margin-bottom: 10px;}
+
+
+.box__header {
+	padding: 5px 15px;
+	position: relative;
+}
+
+.box__header-title {
+  color : #FFFFFF;
+ color : rgb(255, 255, 255);
+	font-size: 18px;
+}
+
+.box__body {
+	padding: 0 15px;
+
+}
+
+/* STATS */
+
+.stats {
+  color : #FFFFFF;
+ color : rgb(255, 255, 255);
+	position:relative;
+	padding-bottom: 5px;
+
+}
+
+.stats__amount {
+  /* font-family : Myriad Pro; */
+	font-size: 31px;
+	font-weight: semi-bold;
+  /* margin-bottom: 5px; */
+
+}
+
+.stats__caption {
+	font-size: 20px;
+
+}
+
+.stats__change {
+	position: absolute;
+	top: 0;
+	right:15px;
+	text-align: right;
+	color: #B1B7C8;
+  font-weight: 200;
+}
+
+.stats__value {
+	font-size: 18px;
+}
+
+.stats__period {
+	font-size: 14px;
+}
+
+.stats__value--positive {
+	color: #AEDC6F;
+}
+
+.stats__value--negative {
+	color: #FB5055;
+}
+
+.stats--main .stats__amount p{
+	font-size: 9px;
+}
+
+@media screen and (max-width: 1140px)
+{
+
+
+  .right
+  {width:70%;}
+
+}

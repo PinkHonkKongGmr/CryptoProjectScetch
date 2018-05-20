@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+.static_table_bots {
+  margin: 0 auto;
+margin-left: 40px;
+
+}
+
+.table {
+  margin: 0 0 15px 0;
+  max-width: 750px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  display: table;
+  border: solid #8f83a9 3px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+
+}
+
+.prtone
+{
+  display: table;
+width: 100%;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .table {
+    display: block;
+
+  }
+}
+
+
+
+
+.row {
+  display: table-row;
+  background: #d3cdd9;
+
+
+}
+.row:nth-of-type(odd) {
+  background: #f1f1f2;
+}
+
+.row:nth-of-type(even
+) {
+  background-color:#f1f1f2;
+}
+
+.row.header {
+  background : #BFB5C9;
+  background : rgba(191, 181, 201, 1);
+  /* opacity : 0.61; */
+  font-family : Ubuntu;
+    font-size : 13px;
+    color : #58595B;
+    color : #58595B;
+color : rgb(88, 89, 91);
+
+  /* width : 694px; */
+  height : 29px;
+  filter: alpha(opacity=61) progid:DXImageTransform.Microsoft.Alpha(opacity=61) ;
+}
+.row.green {
+  background: #27ae60;
+}
+.row.blue {
+  background: #2980b9;
+}
+@media screen and (max-width: 1024px) {
+  .row {
+    padding: 8px 0 5px;
+    display: block;
+    border-bottom:2px solid #d3cdd9;
+
+  }
+  .row.header {
+    padding: 0;
+    height: 6px;
+    color:#8b8889;
+  }
+  .row.header .cell {
+    display: none;
+  }
+  .row .cell {
+    margin-bottom: 10px;
+  }
+  .row .cell:before {
+    margin-bottom: 3px;
+    content: attr(data-title);
+    min-width: 64px;
+    font-size: 10px;
+    line-height: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #969696;
+    display: block;
+  }
+}
+
+.cell {
+  padding:5px 25px;
+  display: table-cell;
+  font-size: 13px;
+  text-align: center;
+  border-bottom: 1px solid #d3cdd9;
+  color: #6d6c6d;
+  color: ##9d9b9c;
+
+
+
+
+}
+
+
+.desktophide
+{display: none;}
+/*
+.lastdeals
+ {
+  padding:0px 10px;
+  display: table-cell;
+  font-size: 13px;
+  min-width: 20px;
+} */
+
+@media screen and (max-width: 1024px) {
+  .cell {
+    padding: 2px 16px;
+    display: block;
+
+
+  }
+
+    .table .showallcell a
+    {font-size: 14px;}
+
+
+}
+
+.row a
+{text-decoration: none;
+}
+
+
+
+.tabicon
+{float:right;}
+
+.cell p
+{color:inherit;
+  font-size:inherit;
+margin:0px;
+line-height: inherit;
+}
+
+.lastdeals
+{  font-family : Ubuntu Medium;
+  font-size : 9px;
+  color : #796C9A;
+  color : rgb(121, 108, 154);
+margin-bottom: 0px;
+padding: 0px;
+padding-left: 5px;
+}
+
+.table .showallcell
+{padding-right: 5px;
+}
+
+.table .showallcell a
+{
+  font-family : Ubuntu;
+  font-size : 11px;
+  color : #808285;
+  color : rgb(128, 130, 133);}
+
+
+  @media screen and (max-width: 1024px) {
+
+
+      .table .showallcell a
+      {font-size: inherit;
+        font-style: inherit;
+        text-align: center;
+        margin-left: -30px;
+
+      }
+
+      .mobhide
+      {display: none;
+      }
+
+      .bottomline
+      {border: none;}
+
+      .desktophide
+      {display: block;}
+          }
+
+
+
+.rabbit
+  {
+    display: none;
+    }
+
+
+
+
+.rabbit2
+{display: none;
+}
+
+    .visb
+    {display: table-row;
+  }
+
+  #topright
+  {
+    border-top-right-radius: 5px;
+  }
+
+  .botleftborder,#borderdownright
+  {border-bottom-left-radius:6px;}
+
+  .botrightborder,#borderdowndyn
+  {border-bottom-right-radius: 7px;}
+
+
+
+
+
+  @media screen and (max-width: 1024px) {
+
+
+    .visb
+    {display: block;
+  }
+
+
+
+
+      .adaptivewidthforsc
+      {padding: 5px 28px;}
+
+
+      .adaptivewidthforsa
+      {padding: 5px 25px;}
+
+
+
+
+      @media screen and (max-width: 1024px) {
+
+
+        .tablefloatleft
+        {float: left;}
+
+        .tablefloatright
+        {float: right;}
+
+      }
+
+
+
+
+
+/*
+    .rabbit2
+    {display: none;}

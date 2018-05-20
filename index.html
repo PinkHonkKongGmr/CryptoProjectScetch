@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Биток растёт</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+    <script type="text/javascript" src=" http://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+  <script src="js\tabs.js"></script>
+  <script src="js\tabsshowall.js"></script>
+
+    <script src="js\closer.js"></script>
+    <script src="js\closer2.js"></script>
+    <script src="js\closel.js"></script>
+
+
+
+    <script src="js\tabsshowpart.js"></script>
+<script src="js\datachecker.js"></script>
+<script src="js\datacheckerbuild.js"></script>
+<script src="js\datacheckerbuild2.js"></script>
+<script src="js\datacheckerbuild3.js"></script>
+
+
+
+
+<link rel="stylesheet" href="css/menustyle.css">
+<link rel="stylesheet" type="text/css" href="css\style.css" >
+<!-- <link rel="stylesheet" media="screen and (min-width: 960px)" href="style.css" />
+<link rel="stylesheet" media="screen and (max-width: 960px)" href="big.css" /> -->
+
+<link rel="stylesheet" type="text/css" href="css\decorate.css" >
+<!-- <link rel="stylesheet" type="text/css" href="css\bootstrap.css" > -->
+<link rel="stylesheet" type="text/css" href="css\styleStat.css" >
+<link rel="stylesheet" type="text/css" href="css\tablestyles2.css" >
+<link rel="stylesheet" type="text/css" href="css\tabsstyle.css" >
+<link rel="stylesheet" type="text/css" href="css\footer.css" >
+
+
+</head>
+
+<body>
+
+
+
+
+                </div>
+                <div class="col-lg-9 col-md-8 col-sm-6 col-xs-12 top"><img  id="logo" src="icons\лого.svg"></div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 top">
+
+
+
+
+                      <ul class="language-panel">
+
+                <div class="lng">
+                        <li class="dropdown">
+                          <a href="#" class="dropdown-toggle langhover" data-toggle="dropdown"> Язык <span class="caret"></span></a>
+                          <ul class="dropdown-menu" role="menu">
+                            <li class="dropdown-header">Выбор языка</li>
+                            <li><a href="#">Русский</a></li>
+                            <li><a href="#">English</a></li>
+                            <li><a href="#">Українська мова</a></li>
+                          </ul>
+                        </div>
+
+                        <div class="push">
+                          <ul>
+                        <li id="vs"><img class="pushicons" src="icons\иконка_уведомл.svg"></li>
+                          <ul>
+                      </div>
+
+
+                   <div class="aut">
+                    <ul>
+                      <li class="dropdown">
+                        <a href="#" class="dropdown-toggle langhover" data-toggle="dropdown"> <img class="pushicons" src="icons\call.svg"> <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                          <li class="dropdown-header">Профиль</li>
+                          <li><a href="#">Настройки</a></li>
+                          <li><a href="#">Выйти</a></li>
+                        </ul>
+                      </ul>
+                          </div>
+
+
+
+
+                        </ul>
+
+                </div>
+
+
+                <div class="col-lg-3  col-md-4 col-sm-4 col-xs-4 menumain height">
+
+                <ul>
+
+                  <li class="topbt"><a href="#"><img  class="menuicons" src="icons\иконка_статс.svg"><div class="menuspan">Stats</div></a></li>
+                  <li><a href="#"><img class="menuicons" src="icons\иконка_боты.svg"><div class="menuspan">Bots</div></a></li>
+                  <li><a href="#"><img class="menuicons" src="icons\иконка_тулс.svg"><div class="menuspan">Tools</div></a></li>
+                  <li><a href="#"><img id="ex" class="menuicons" src="icons\иконка_биржа.svg"><div class="menuspan">Exchange</div></a></li>
+                  <li><a href="#"><img id="ico" class="menuicons" src="icons\иконка_ико.svg"></a></li>
+                  <li><a href="#"><img id="faq" class="menuicons" src="icons\иконка_фак.svg"></a></li>
+
+                </ul>
+
+                </div>
+
+
+
+
+
+
+
+
+                  <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12  right height">
+
+                    <div class="box">
+                    <div class="box__header">
+
+                    </div>
+                    <div class="box__body">
+                      <div class="stats stats--main">
+                        <div class="stats__amount txt">14.8</div>
+                        <div class="stats__change">
+                        <div class="stats__amount">BTC</div>
+                        </div>
+                        <div class="stats__caption">+1.7%
+                        <p class="lowertext">за 1.5 часа</div>
+                          <div class="stats__caption">+4%
+                          <p class="lowertext">за неделю</div>
+                        <div class="stats__change">
+
+                        </div>
+                      </div>
+
+
+
+
+
+                    </div>
+                  </div>
+
+                  <div class="box">
+
+                  <div class="box__body">
+                    <div class="stats stats--main">
+                      <div class="stats__amount uptxt">12698</div>
+                      <div class="stats__caption uptxtlw">Баланс HBT</div>
+
+                    </div>
+
+                    <div class="stats">
+                      <div class="stats__amount midletext">873</div>
+                      <div class="stats__caption lowertext">Количество сделок</div>
+
+                    </div>
+
+                    <div class="stats">
+                      <div class="stats__amount midletext">6302</div>
+                      <div class="stats__caption lowertext">Заработок на рынке ботов</div>
+
+                    </div>
+
+                    <div class="stats">
+                      <div class="stats__amount midletext">268</div>
+                        <div class="stats__caption lowertext">Подписчиков на бирже</div>
+
+                    </div>
+                  </div>
+                  </div>
+                 <img id="chaticon" src="icons\chaticon.svg">
+                 <span id="chatspan">Chat</span>
+
+                 <div class="relative">
+                 <form class="chatform" action="">
+                   <input id="massagevaluer" type="username" name="massagevalue" placeholder="Enter your message">
+                   </form>
+                   <div id='chatbt'><img id='chtbtic' src="icons\chatarrow.svg">  </div>
+                   </div>
+
+
+
+                 <div class="massenger">
+
+                 </div>
+                </div>
+
+
+                  <!-- </div> -->
+
+                  <div class="col-lg-7 col-md-8 col-sm-8 col-xs-8 left height">
+
+
+
+                    <div class="graf">
+                       <!-- <label class="label label-success">Line Chart</label> -->
+                       <span>Statistics</span>
+                      <div id="line-chart"></div>
+                    </div>
+
+
+
+
+
+                    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js'></script>
+                    <script src='https://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.2/raphael-min.js'></script>
+                    <script src='https://cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.0/morris.min.js'></script>
+
+                    <script src="js\stat.js"></script>
+
+
+                    <div class="tab">
+
+                          <ul class="tabs">
+                              <li class="tbs"><a href="#">Бот 1</a></li>
+                              <li><a href="#">Бот 2</a></li>
+                              <li><a href="#">Бот 3</a></li>
+                          </ul>
+
+
+
+                        <div class="tab_content">
+
+                            <div class="tabs_item">
+
+                              <div class="static_table_bots">
+
+                              <div class="table">
+
+
+                                 <div class="uptable">
+
+                                   <div class="prtone" id='prtone'>
+                                <div class="row header tablefloatleft">
+                                  <div class="cell mobhide">
+
+                                  </div>
+                                  <div class="cell per">Период
+                                  <span id="per">день</span>
+                                  <div id="dch" class="hide">
+                                    <ul>
+                                      <li class="opyatblya"><span id="daycheck">День</span><div id="dchr" class="hidecheck">
+    <div id="check-part-1" class="check-sign"></div>
+    <div id="check-part-2" class="check-sign"></div>
+</div></li>
+
+<!-- первая таблица -->
+
+<li class="opyatblya"><span id="weekcheck">Неделя</span><div id="wchr" class="hidecheck">
+<div id="check-part-1" class="check-sign"></div>
+<div id="check-part-2" class="check-sign"></div>
+</div></li>
+
+<li class="opyatblya"><span id="mounthcheck">Месяц</span><div id="mchr" class="hidecheck">
+<div id="check-part-1" class="check-sign"></div>
+<div id="check-part-2" class="check-sign"></div>
+</div></li>
+<!-- первая таблица -->
+
+
+                                    </ul>
+
+                                </div>
+
+
+                                  </div>
+                                  <div class="cell">
+                                    Биржа
+                                  </div>
+                                  <div class="cell">
+                                    Сделка
+                                  </div>
+                                  <div class="cell">
+                                    Доход
+                                  </div>
+                                  <div class="cell mobhide">
+
+                                  </div>
+
+                                  <div class="cell mobhide" id='topright'>
+
+                                  </div>
+                                </div>
+<!-- первая таблица -->
+
+                                <div class="row">
+
+                                  <div class="cell desktophide">
+
+                                    сортировка по переодам
+
+
+
+                                  </div>
+                                  <div class="cell mobhide">
+
+                                  </div>
+                                  <div class="cell" data-title="Период">
+                                    29.01
+                                  </div>
+                                  <div class="cell" data-title="Биржа">
+                                    Poloniex
+                                  </div>
+                                  <div class="cell" data-title="Сделка">
+                                    144
+                                  </div>
+                                  <div class="cell bottomline" data-title="Доход">
+                                  + 0.2 BTC
+                                  </div>
+                                  <div class="cell mobhide">
+<!-- первая таблица -->
+                                  </div>
+                                  <div class="cell mobhide">
+
+                                  </div>
+                                </div>
+<!-- первая таблица -->
+                                <div class="row">
+                                  <div class="cell mobhide">
+<!-- первая таблица -->
+                                  </div>
+                                  <div class="cell" data-title="Период">
+                                    78.01
+                                  </div>
+                                  <div class="cell" data-title="Биржа">
+                                    Poloniex
+                                  </div>
+                                  <div class="cell" data-title="Сделка">
+                                    144
+                                  </div>
+                                  <div class="cell bottomline" data-title="Доход">
+                                  + 0.2 BTC
+                                  </div>
+                                  <div class="cell mobhide" data-title="Доход">
+<!-- первая таблица -->
+                                  </div>
+                                  <div class="cell mobhide">
+
+                                  </div>
+                                </div>
+
+<!-- первая таблица -->
+
+
+                                <div class="row">
+                                  <div class="cell mobhide">
+
+                                  </div>
+                                  <div class="cell" data-title="Период">
+                                    35.01
+                                  </div>
+                                  <div class="cell" data-title="Биржа">
+                                    Poloniex
+                                  </div>
+                                  <div class="cell" data-title="Сделка">
+                                    144
+                                  </div>
+                                  <div class="cell bottomline" data-title="Доход">
+                                  + 0.2 BTC
+                                  </div>
+                                  <div class="cell mobhide" data-title="Доход">
+<!-- первая таблица -->
+                                  </div>
+
+
+
+                                  <div class="cell showallcell bottomline" data-title="Управление таблицей">
+
+                                    <a href="#" ><span id='txtup'>показать всё</span>
+                                      <img  id="allup" class="tabbut" src="icons\plus.svg"></a>
+
+                                  </div>
+                                </div>
+
+                                <div class="row rabbit">
+                                  <div class="cell mobhide">
+
+                                  </div>
+                                  <div class="cell" data-title="Период">
+                                    29.01
+                                  </div>
+                                  <div class="cell" data-title="Биржа">
+                                    Poloniex
+                                  </div>
+                                  <div class="cell" data-title="Сделка">
+                                    144
+                                  </div>
+                                  <div class="cell bottomline" data-title="Доход">
+                                  + 0.2 BTC
+                                  </div>
+                                  <div class="cell mobhide">
+<!-- первая таблица -->
+                                  </div>
+                                  <div class="cell mobhide">
+
+                                  </div>
+                                </div>
+
+                                <div class="row rabbit">
+                                  <div class="cell mobhide">
+
+                                  </div>
+                                  <div class="cell" data-title="Период">
+                                    29.01
+                                  </div>
+                                  <div class="cell" data-title="Биржа">
+                                    Poloniex
+                                  </div>
+                                  <div class="cell" data-title="Сделка">
+                                    144
+                                  </div>
+                                  <div class="cell bottomline" data-title="Доход">
+                                  + 0.2 BTC
+                                  </div>
+                                  <div class="cell mobhide">
+  <!-- первая таблица -->
+                                  </div>
+                                  <div class="cell mobhide">
+
+                                  </div>
+                                </div>
+
+
+
+<!-- первая таблица -->
+<!-- вторая половина -->
+
+<div class="row header" id='down'>
+  <div class="cell lastdeals">
+    последние<p>сделки
+  </div>
+  <div class="cell">
+  Дата
+  </div>
+  <div class="cell">
+    Ордер
+  </div>
+  <div class="cell">
+    Валюта
+  </div>
+  <div class="cell bottomline">
+    Объем
+  </div>
+<!-- первая таблица -->
+<!-- вторая половина -->
+  <div class="cell mobhide">
+    биржа
+  </div>
+
+  <div class="cell mobhide">
+
+  </div>
+<!-- первая таблица -->
+<!-- вторая половина -->
+
+</div>
+
+<div class="row">
+
+  <div class="cell desktophide" data-title="Последние сделки">
+
+
+
+  </div>
+
+  <div class="cell mobhide">
+
+  </div>
+  <div class="cell" data-title="Дата">
+    30.01.2017 23:07
+  </div>
+  <div class="cell" data-title="Ордер">
+    Покупка
+  </div>
+  <div class="cell" data-title="Валюта">
+    BTC\ETH
+  </div>
+  <div class="cell" data-title="Объём">
+  0.002 BTC
+  </div>
+<!-- первая таблица -->
+<!-- вторая половина -->
+  <div class="cell bottomline" data-title="Биржа">
+  Livecoin
+  </div>
+
+  <div class="cell mobhide" data-title="Биржа">
+
+  </div>
+
+</div>
+<!-- первая таблица -->
+<div class="row">
+  <div class="cell mobhide">
+
+  </div>
+  <div class="cell" data-title="Дата">
+    29.01.2017 23:07
+  </div>
+  <div class="cell" data-title="Ордер">
+    Покупка
+  </div>
+  <div class="cell" data-title="Валюта">
+    BTC\ETH
+  </div>
+  <div class="cell" data-title="Объем">
+  0.002 BTC
+  </div>
+<!-- первая таблица -->
+<!-- вторая половина -->
+  <div class="cell bottomline" data-title="Биржа">
+  Livecoin
+  </div>
+  <div class="cell mobhide" data-title="Биржа">
+
+  </div>
+
+</div>
+
+<!-- первая таблица -->
+
+
+<div class="row bottomline">
+  <div class="cell mobhide" id='borderdownright'>
+
+  </div>
+  <div class="cell" data-title="Дата">
+    29.01.2017 23:07
+  </div>
+  <div class="cell" data-title="Ордер">
+    Покупка
+  </div>
+  <div class="cell" data-title="Валюта">
+    BTC\ETH
+  </div>
+  <div class="cell" data-title="Объем">
+  0.002 BTC
+  </div>
+<!-- первая таблица -->
+<!-- вторая половина -->
+  <div class="cell bottomline" data-title="Биржа">
+  Livecoin
+  </div>
+
+  <div id='borderdowndyn'  class="cell showallcell bottomline" data-title="Управление таблицей">
+  <a href="#"  ><span id='xttdwn'>показать всё</span>
+    <img  id="alldown" class="tabbut" src="icons\plus.svg"></a>
+  </div>
+
+<!-- первая таблица -->
+<!-- вторая половина -->
+
+
+</div>
+<div class="row rabbit2">
+  <div class="cell mobhide">
+
+  </div>
+  <div class="cell" data-title="Дата">
+    30.01.2017 23:07
+  </div>
+  <div class="cell" data-title="Ордер">
+    Покупка
+  </div>
+  <div class="cell" data-title="Валюта">
+    BTC\ETH
+  </div>
+  <div class="cell" data-title="Объём">
+  0.002 BTC
+  </div>
+
+  <div class="cell bottomline" data-title="Биржа">
+  Livecoin
+  </div>
+
+  <div class="cell mobhide">
+
+  </div>
+<!-- вторая таблица -->
+<!-- вторая половина -->
+</div>
+<div class="row rabbit2 bottomline">
+  <div class="cell mobhide">
+
+  </div>
+  <div class="cell" data-title="Дата">
+    30.01.2017 23:07
+  </div>
+  <div class="cell" data-title="Ордер">
+    Покупка
+  </div>
+  <div class="cell" data-title="Валюта">
+    BTC\ETH
+  </div>
+  <div class="cell" data-title="Объём">
+  0.002 BTC
+  </div>
+
+  <div class="cell bottomline" data-title="Биржа">
+  Livecoin
+  </div>
+  <div class="cell mobhide">
+
+  </div>
+<!-- вторая таблица -->
+</div>
+
+                              </div>
+
+
+                              <!-- начинается
+                              вторая
+                              таблица -->
+
+                          </div>
+                            </div>
+
+<!-- вторая таблица -->
+<!-- вторая половина -->
+                            <div class="tabs_item">
+
+                            </div> <!-- / tabs_item -->
+
+                            <div class="tabs_item">
+<!-- вторая таблица -->
+<!-- вторая половина -->
+<!-- конец -->
+
+                            </div> <!-- / tabs_item -->
+
+                        </div> <!-- / tab_content -->
+                    </div> <!-- / tab -->
+                  </div>
+                  </div>
+
+
+                </div>
+
+
+
+
+                  <div class="col-lg-12  col-md-12 col-sm-12 col-xs-12 footer">
+
+
+
+                         <div class="socbtms">
+                           <span>social channels</span>
+          <a  href="#"><img id="fb" src="icons\fb.svg"></a>
+          <a  href="#"><img id="tw" src="icons\tw.svg"></a>
+          <a  href="#"><img id="bk" src="icons\bk.svg"></a>
+          <a  href="#"><img id="tg" src="icons\tg.svg"></a>
+      </div>
+
+
+                  </div>
+
+            <!-- </div>
+        </div> -->
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
+
+    <script  src="js/index.js"></script>
+    <script src="js\adder.js"></script>
+
+</body>
+</html>

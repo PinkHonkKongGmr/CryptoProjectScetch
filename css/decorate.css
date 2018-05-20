@@ -1,0 +1,286 @@
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+.push
+{
+width:40px;
+float:left;}
+
+.push::after
+{
+content:" ";
+clear: both;
+display:table;
+
+}
+
+
+.pushicons
+{width:23px;
+height:23px;}
+
+
+
+
+#vs::before
+{
+content: "3 ";
+border-radius:50%;
+background : #796C9A;
+width:17px;
+height:17px;
+position:absolute;
+color : #FFFFFF;
+top:25px;
+text-align: center;
+vertical-align: middle;
+font-size:13px;}
+
+
+
+.push ul
+{list-style: none;
+width:70px;
+background: black;
+padding-left:0px;
+}
+
+.push li
+{float:left;
+margin-right:0px;}
+
+.aut
+{float:left;
+}
+
+
+
+.aut ul{list-style: none;
+padding-left:5px;}
+
+.lng{float: left;
+margin-right:30px;}
+
+.topbt
+{border-top-left-radius: 10px;
+border-top-right-radius: 10px;}
+
+#ico
+{height: 35px;
+width: 38px;}
+
+.lowertext
+{font-size:9px;
+margin-bottom:10px;
+}
+
+.midletext
+{font-size:20px;}
+
+.uptxt
+{
+padding-top:10px;
+  font-size:31px;
+margin-bottom: 3px;}
+
+.txt
+{margin-bottom: 8px;}
+.uptxtlw
+{font-size:11px;
+margin-bottom: 6px;
+}
+
+.cell .tabbut
+{width:16px;
+height:16px;
+float:right;
+margin-right: 0px;
+margin-left: 5px;
+}
+
+#faq
+{
+  width : 38px;
+    height : 40px;
+}
+
+.datechaker
+{
+
+margin-top: 10px;
+/* padding-top:10px; */
+  position: absolute;
+display: block;
+font-size: 12px;
+width: 94px;
+height: 67px;
+
+/* opacity: 1.5; */
+list-style: none;
+z-index: 5000;
+font-family: "UbuntuRegular";
+font-weight: 500;
+color : #6D6E71;
+color : rgb(109, 110, 113);
+background : rgba(255, 255, 255, 1);
+
+
+}
+
+.datechaker ul
+{list-style: none;
+padding-left: 0px;
+text-align:left;}
+
+
+
+
+.wrap {
+  position: relative;
+  /* z-index: 3; */
+
+
+}
+
+.check-sign {
+  position: absolute;
+    background: #FFFFFF;
+}
+
+#check-part-1 {
+  width: 3px;
+  height: 13px;
+  left:85px;
+  transform:rotate(45deg);
+  background: #FFFFFF;
+  top:-22px;
+}
+
+#check-part-2 {
+  width: 3px;
+  height: 8px;
+  transform: rotate(-45deg);
+  left:78px;
+  top:-19px;
+}
+
+
+
+
+
+.datechaker::before
+{
+  content: '';
+  display: block;
+  position:absolute;
+background : rgba(255, 255, 255, 1);
+opacity: 1;
+  width: 25px; height: 25px;
+right:11px;
+
+top:-3px;
+  z-index:-1000;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.hidecheck
+{display:none;}
+
+.opyatblya span
+{display:block;
+  padding-left: 3px;
+height: 100%;
+margin-bottom: 5px;}
+
+/* .opyatblya span:hover
+{color:#526494;} */
+
+.dateactive
+{background : rgba(121, 108, 154, 1);
+color : #FFFFFF;}
+
+#chaticon
+{height: 18px;
+width: 20px;
+margin-left:30px;}
+
+#chatspan
+{
+font-family : Ubuntu;
+
+font-size : 19px;
+color : #796C9A;
+color : rgb(121, 108, 154);
+}
+
+#massagevaluer
+{margin-left: 30px;
+  width : 160px;
+height : 24px;
+border-radius : 7px;
+-moz-border-radius : 7px;
+-webkit-border-radius : 7px;
+background : rgba(230, 231, 232, 1);
+color:red;
+margin-top: 5px;
+}
+
+
+#chatbt
+{position: absolute;
+background : #796C9A;
+background : rgba(121, 108, 154, 1);
+width : 18px;
+height : 17px;
+border-radius : 4px;
+-moz-border-radius : 4px;
+-webkit-border-radius : 4px;
+vertical-align:middle;
+  text-align: center;
+  /* top:-20px;
+ for relative*/
+
+  top:8px;
+  left:160px;
+
+}
+
+#chtbtic
+{
+  width : 9.1px;
+  height : 12.1px;
+padding-bottom:3px;
+}
+
+.relative
+{position:relative;}
+
+.massenger
+{height:50px;}
+
+#massagevaluer::-webkit-input-placeholder
+{
+  font-family : Ubuntu Light;
+ font-size : 10px;
+ color : #808285;
+ color : rgb(128, 130, 133);
+
+}
+#massagevaluer:-moz-placeholder {
+
+  font-family : Ubuntu Light;
+ font-size : 10px;
+ color : #808285;
+ color : rgb(128, 130, 133);
+}
+
+
+@media screen and (max-width: 1024px) {
+  .cell .tabbut {
+    float: left;
+  }
+
+
+}

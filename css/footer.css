@@ -1,0 +1,68 @@
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+
+
+.footer
+{height:60px;
+padding-top: 20px;}
+
+.socbtms
+{margin-left:40%;
+
+}
+
+
+
+
+.social {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-image:url("../jpg/icons.png");
+    margin-right: 7px;
+    vertical-align: middle;
+}
+
+
+.social-tw {
+  background-position: -40px 0;
+
+}
+
+.social-bt {
+  background-position: -95px 0;
+  height:45px;
+
+}
+.social-tg {
+  background-position: 40px 0;
+
+}
+
+.socbtms span
+{margin-right: 7px;
+display: inline-block;
+vertical-align: middle;
+
+font-family: 'Dosis', sans-serif;
+}
+#fb
+{width : 10px;
+  height : 21px;}
+
+  #tw
+  {  width : 21px;
+  height : 18px;}
+
+    #bk
+    { width : 22px;
+  height : 22px;}
+
+      #tg
+      {  width : 20px;
+  height : 18px;}
+
+  .socbtms img
+  {margin-left: 10px;}
